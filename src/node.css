@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display:inline-block;
+    margin-right: 10px;
+    border-radius: 7px;
+
+}
+.mode {
+    background-color: black;
+}

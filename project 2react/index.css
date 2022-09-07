@@ -1,0 +1,61 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     padding: 0 10px;
+ }
+
+ #root {
+     max-width: 900px;
+     margin: 5px auto;
+     background-color: whitesmoke;
+ }
+ .Hero {
+    padding: 15px 20px;
+ }
+.img {
+    border-radius: 10px;
+    width: 400px;
+}
+ .nav-container {
+     width: 100%;
+     background-color: crimson;
+     color: white;
+     border-radius: 10px 10px 0px 0px;
+     padding: 10px;
+     text-align: center;
+ }
+
+ .main-flex {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .mini-flex {
+     display: flex;
+     margin-block: 10px;
+
+ }
+
+ .mini-flex a {
+     margin-left: 15px;
+     color: black;
+ }
+
+ .main1-flex {
+     margin-left: 50px;
+ }
+ .main1-flex h1 {
+    margin-block: 10px;
+ }
+.date, .main-text {
+    margin-block: 8px;
+}
+.main-text {
+    text-align: left;
+    line-height: 1.3;
+}
